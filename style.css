@@ -1,0 +1,37 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.music-container {
+  padding: 50px;
+}
+
+.player {
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  width: 90%;
+  max-width: 400px;
+}
+
+.controls button {
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin: 10px 0;
+}
+
+.time {
+  font-size: 14px;
+  margin-top: 5px;
+}
